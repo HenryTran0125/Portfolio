@@ -1,0 +1,92 @@
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px;
+}
+
+.resume {
+  font-size: 26px;
+  font-weight: 380;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.textContainer {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+
+.textAlignment {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  /* padding: 32px 68px; */
+  position: relative;
+  left: 54px;
+  bottom: 60px;
+}
+
+.portfolio {
+  text-transform: uppercase;
+  font-size: 120px;
+  letter-spacing: 17.05px;
+  font-weight: 700;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.henry {
+  font-size: 30px;
+  font-weight: 450;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  position: relative;
+  bottom: -26px;
+}
+
+.border {
+  position: absolute;
+  width: 610px;
+  border-bottom: 2px solid #081f5c;
+  left: -70px;
+  bottom: 25px;
+}
+
+.year {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.developerContainer {
+  z-index: 1;
+  text-transform: uppercase;
+  color: rgba(8, 31, 92, 0.08);
+  position: absolute;
+  left: 14px;
+  bottom: -100px;
+  font-size: 140px;
+  font-weight: 800;
+  letter-spacing: -4px;
+}
+
+.frontEndText {
+  position: relative;
+  bottom: -40px;
+}
+
+.developerText {
+  position: relative;
+  top: -20px;
+}
