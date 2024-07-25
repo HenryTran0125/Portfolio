@@ -1,0 +1,76 @@
+.section {
+  min-height: 100vh;
+  margin-top: 96px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.titleSectionText {
+  text-align: center;
+  line-height: 5;
+  font-size: 36px;
+  color: #081f5c;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 60px;
+}
+
+.certificateContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrapper {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.certificateElementContainer {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.imageContainer {
+  margin-right: 36px;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.courseName {
+  color: #081f5c;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+
+.instructorsText {
+  color: rgba(8, 31, 92, 0.58);
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.courseDescription {
+  color: #081f5c;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 3;
+}

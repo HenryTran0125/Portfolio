@@ -1,0 +1,151 @@
+.section {
+  height: 100vh;
+  margin-top: 96px;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.developerSkillsContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.softwareSkillAlignment {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  padding-left: 62px;
+}
+
+.softwareSkillContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  justify-content: center;
+  align-items: start;
+}
+
+.listSkillContainer {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: start !important ;
+  gap: 32px;
+}
+
+.skillElement {
+  display: flex;
+  width: 100px;
+  margin-right: 72px;
+  margin-bottom: 24px;
+}
+
+.toolsContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  padding-left: 62px;
+}
+
+.toolSkillContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: start;
+}
+
+.listToolContainer {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: start !important ;
+  gap: 32px;
+}
+
+.skillElement {
+  display: flex;
+  width: 100px;
+  margin-right: 72px;
+}
+
+.skillTitleSoftWareSide {
+  font-size: 48px;
+  font-weight: 600;
+  justify-self: start;
+}
+
+.softSkillsContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.softSkillsDeveloperContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  width: 800px;
+}
+
+.skillTitle {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.listSkillContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  left: 110px;
+}
+
+.li {
+  width: 170px;
+  margin-right: 72px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillName {
+  margin-left: 8px;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.skillText {
+  position: absolute;
+  top: 52%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 78px;
+}

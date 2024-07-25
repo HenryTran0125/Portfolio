@@ -1,0 +1,186 @@
+.section {
+  height: 100vh;
+  margin-top: 96px;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.introduction {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 24px 48px;
+}
+
+.overview {
+  flex: 2;
+  overflow: hidden;
+  position: relative;
+}
+
+.nameContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  right: 80px;
+  bottom: 100px;
+  font-size: 95px;
+  color: #081f5c;
+  /* animation: nameSliding 1s linear; */
+}
+
+.familyName {
+  font-weight: 550;
+  position: relative;
+  top: 35px;
+  right: 10px;
+}
+
+.name {
+  font-weight: 330;
+}
+
+.detailInformation {
+  flex: 1;
+  /* background-color: red; */
+}
+
+.aboutMeContainer {
+  display: flex;
+  color: #081f5c;
+}
+
+.aboutMe {
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 550;
+}
+
+.majorTitle {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: end;
+  flex-grow: 1;
+  position: relative;
+}
+
+.majorText {
+  font-size: 38px;
+  font-weight: 600;
+  position: relative;
+  bottom: 18px;
+}
+
+.underline {
+  position: absolute;
+  border-bottom: 3px solid #081f5c;
+  /* width: 700px; */
+  width: 99%;
+  top: 32px;
+  left: 20;
+  animation: underlined 2s linear;
+}
+
+@keyframes underlined {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 99%;
+  }
+}
+
+@keyframes imageSliding {
+  0% {
+    transform: translateY(200px);
+  }
+
+  50% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.information {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 3;
+}
+
+.educationContainer {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.areaContainer {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0;
+}
+
+.category {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.details {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.alignment {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 22px;
+  color: rgba(8, 31, 92, 0.58);
+  /* color: gray; */
+  font-weight: 700;
+}
+
+.hobbiesContainer {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.hobbiesElement {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
