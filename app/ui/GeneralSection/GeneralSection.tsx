@@ -67,55 +67,54 @@ export default function GeneralSection() {
           </aside>
         )}
       </nav>
-      <div>
-        <div className={pageStyles.textContainer}>
-          <div className={pageStyles.textAlignment}>
+
+      <div className={pageStyles.textContainer}>
+        <div className={pageStyles.textAlignment}>
+          <div
+            // data-aos="fade-right"
+            // data-aos-delay="300"
+            // data-aos-duration="900"
+            className={pageStyles.portfolio}
+          >
+            portfolio
+          </div>
+
+          <div
+            // data-aos="zoom-out"
+            // data-aos-delay="800"
+            // data-aos-duration="1000"
+            className={pageStyles.henry}
+          >
+            x henry tran
+          </div>
+
+          <div className={pageStyles.border}></div>
+
+          <div
+            // data-aos="zoom-in"
+            // data-aos-delay="800"
+            // data-aos-duration="1000"
+            className={pageStyles.year}
+          >
+            2024
+          </div>
+
+          <div className={pageStyles.developerContainer}>
             <div
-              data-aos="fade-right"
-              data-aos-delay="300"
-              data-aos-duration="900"
-              className={pageStyles.portfolio}
+              // data-aos="fade-up"
+              // data-aos-delay="900"
+              // data-aos-duration="900"
+              className={pageStyles.frontEndText}
             >
-              portfolio
+              front end
             </div>
-
             <div
-              data-aos="zoom-out"
-              data-aos-delay="800"
-              data-aos-duration="1000"
-              className={pageStyles.henry}
+              // data-aos="fade-down"
+              // data-aos-delay="900"
+              // data-aos-duration="900"
+              className={pageStyles.developerText}
             >
-              x henry tran
-            </div>
-
-            <div className={pageStyles.border}></div>
-
-            <div
-              data-aos="zoom-in"
-              data-aos-delay="800"
-              data-aos-duration="1000"
-              className={pageStyles.year}
-            >
-              2024
-            </div>
-
-            <div className={pageStyles.developerContainer}>
-              <div
-                data-aos="fade-up"
-                data-aos-delay="900"
-                data-aos-duration="900"
-                className={pageStyles.frontEndText}
-              >
-                front end
-              </div>
-              <div
-                data-aos="fade-down"
-                data-aos-delay="900"
-                data-aos-duration="900"
-                className={pageStyles.developerText}
-              >
-                developer
-              </div>
+              developer
             </div>
           </div>
         </div>

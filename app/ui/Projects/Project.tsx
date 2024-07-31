@@ -19,9 +19,9 @@ export default function Project({
 }: ProjectTypes) {
   return (
     <section
-      data-aos="fade-up"
-      data-aos-delay="400"
-      data-aos-duration="1000"
+      // data-aos="fade-up"
+      // data-aos-delay="400"
+      // data-aos-duration="1000"
       id="Project"
       className={styles.section}
     >

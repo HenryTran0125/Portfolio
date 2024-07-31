@@ -10,18 +10,18 @@ export default function Certificate() {
     <section id="Certificate" className={styles.section}>
       <div className={styles.container}>
         <div
-          data-aos="fade-up"
-          data-aos-delay="500"
-          data-aos-duration="1000"
+          // data-aos="fade-up"
+          // data-aos-delay="500"
+          // data-aos-duration="1000"
           className={styles.titleSectionText}
         >
           Certificate
         </div>
 
         <div
-          data-aos="fade-up"
-          data-aos-delay="900"
-          data-aos-duration="900"
+          // data-aos="fade-up"
+          // data-aos-delay="900"
+          // data-aos-duration="900"
           className={styles.certificateContainer}
         >
           <div className={styles.wrapper}>

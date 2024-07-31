@@ -14,9 +14,9 @@ export default function AboutMe() {
   return (
     <section id="About Me" className={styles.section}>
       <div
-        data-aos="fade-up"
-        data-aos-delay="400"
-        data-aos-duration="1000"
+        // data-aos="fade-up"
+        // data-aos-delay="400"
+        // data-aos-duration="1000"
         className={styles.container}
       >
         <div className={styles.introduction}>
@@ -35,9 +35,9 @@ export default function AboutMe() {
             </div>
 
             <div
-              data-aos="fade-left"
-              data-aos-delay="1000"
-              data-aos-duration="1000"
+              // data-aos="fade-left"
+              // data-aos-delay="1000"
+              // data-aos-duration="1000"
               className={styles.nameContainer}
             >
               <div className={styles.familyName}>Trần</div>
