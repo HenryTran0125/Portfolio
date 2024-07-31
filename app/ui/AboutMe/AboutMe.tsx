@@ -8,6 +8,7 @@ import game from "../../../public/icons/game-controller.svg";
 import youtube from "../../../public/icons/logo-youtube.svg";
 import music from "../../../public/icons/musical-notes.svg";
 import search from "../../../public/icons/search.svg";
+import Henry from "../../../public/pictures/Me.png";
 
 export default function AboutMe() {
   return (
@@ -20,13 +21,19 @@ export default function AboutMe() {
       >
         <div className={styles.introduction}>
           <div className={styles.overview}>
-            <div>
-              {/* <Image
-                style={{ height: "624px", width: "500px" }}
+            <div style={{ position: "relative", right: "35%", top: "7%" }}>
+              <Image
+                style={{
+                  height: "400px",
+                  width: "650px",
+                  backgroundColor: "transparent",
+                  objectFit: "cover",
+                }}
                 alt="Henry"
-                src={henryPicture}
-              /> */}
+                src={Henry}
+              />
             </div>
+
             <div
               data-aos="fade-left"
               data-aos-delay="1000"
@@ -41,6 +48,7 @@ export default function AboutMe() {
           <div className={styles.detailInformation}>
             <div className={styles.aboutMeContainer}>
               <div className={styles.aboutMe}>about me</div>
+
               <div className={styles.majorTitle}>
                 <div className={styles.majorText}>front end developer</div>
                 <div className={styles.underline}></div>
@@ -67,7 +75,7 @@ export default function AboutMe() {
             <div className={styles.category}>Education</div>
             <div className={styles.details}>
               <div className={styles.alignment}>
-                <div className={styles.title}>Tôn Đức Thắng University</div>
+                <div className={styles.title}>Ton Duc Thang University</div>
                 <div className={styles.description}>
                   Automation and Control Engineering
                 </div>
