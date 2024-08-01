@@ -25,9 +25,9 @@ export default function Skills() {
       <div className={styles.container}>
         <div className={styles.developerSkillsContainer}>
           <div
-            // data-aos="fade-right"
-            // data-aos-delay="800"
-            // data-aos-duration="1000"
+            data-aos="fade-right"
+            data-aos-delay="800"
+            data-aos-duration="1000"
             className={styles.softwareSkillAlignment}
           >
             <div className={styles.softwareSkillContainer}>
@@ -68,10 +68,10 @@ export default function Skills() {
           </div>
 
           <div
-            // data-aos="fade-right"
-            // data-easing="ease-in"
-            // data-aos-delay="1000"
-            // data-aos-duration="1000"
+            data-aos="fade-right"
+            data-easing="ease-in"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
             className={styles.toolsContainer}
           >
             <div className={styles.toolSkillContainer}>
@@ -101,10 +101,10 @@ export default function Skills() {
         </div>
 
         <div
-          // data-aos="fade-left"
-          // data-easing="ease-in"
-          // data-aos-delay="1000"
-          // data-aos-duration="1000"
+          data-aos="fade-left"
+          data-easing="ease-in"
+          data-aos-delay="1000"
+          data-aos-duration="1000"
           className={styles.softSkillsContainer}
         >
           <div className={styles.softSkillsDeveloperContainer}>
@@ -137,9 +137,9 @@ export default function Skills() {
         </div>
 
         <div
-          // data-aos="zoom-in"
-          // data-aos-delay="500"
-          // data-aos-duration="1000"
+          data-aos="zoom-in"
+          data-aos-delay="500"
+          data-aos-duration="1000"
           className={styles.skillText}
         >
           Skills

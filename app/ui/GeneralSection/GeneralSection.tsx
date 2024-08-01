@@ -72,8 +72,8 @@ export default function GeneralSection() {
         <div className={pageStyles.textAlignment}>
           <div
             data-aos="fade-right"
-            data-aos-delay="300"
-            data-aos-duration="900"
+            data-aos-delay="200"
+            data-aos-duration="500"
             className={pageStyles.portfolio}
           >
             portfolio

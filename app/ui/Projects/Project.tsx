@@ -18,13 +18,7 @@ export default function Project({
   image,
 }: ProjectTypes) {
   return (
-    <section
-      // data-aos="fade-up"
-      // data-aos-delay="400"
-      // data-aos-duration="1000"
-      id="Project"
-      className={styles.section}
-    >
+    <section id="Project" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.titleContainer}>
           <h1 className={styles.titleText}>Project</h1>

@@ -69,29 +69,30 @@
 }
 
 .visit {
-  color: #003d00;
-  font-weight: 800;
+  color: #081f5c;
+  font-weight: 700;
   margin-right: 2.4rem;
+  font-size: 1.4rem;
 }
 
 @media (max-width: 1440px) {
   .img {
-    width: 800px;
-    height: 500px;
+    width: 80rem;
+    height: 50rem;
   }
 
   .p {
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
   }
 }
 
 @media (min-width: 1450px) and (max-width: 1920px) {
   .img {
-    width: 1000px;
-    height: 500px;
+    width: 100rem;
+    height: 50rem;
   }
 
   .p {
-    letter-spacing: 3px;
+    letter-spacing: 0.3rem;
   }
 }

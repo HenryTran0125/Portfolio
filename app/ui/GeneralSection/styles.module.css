@@ -116,10 +116,10 @@
   border-bottom: 2px solid #081f5c;
   left: -70px;
   bottom: 25px;
-  /* animation: borderSlide 3s ease; */
+  animation: borderSlide 3s ease-out;
 }
 
-/* @keyframes borderSlide {
+@keyframes borderSlide {
   0% {
     transform: translateX(0);
     width: 0;
@@ -129,4 +129,4 @@
     transform: translateX(610);
     width: 610px;
   }
-} */
+}
