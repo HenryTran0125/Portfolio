@@ -71,18 +71,18 @@ export default function GeneralSection() {
       <div className={pageStyles.textContainer}>
         <div className={pageStyles.textAlignment}>
           <div
-            // data-aos="fade-right"
-            // data-aos-delay="300"
-            // data-aos-duration="900"
+            data-aos="fade-right"
+            data-aos-delay="300"
+            data-aos-duration="900"
             className={pageStyles.portfolio}
           >
             portfolio
           </div>
 
           <div
-            // data-aos="zoom-out"
-            // data-aos-delay="800"
-            // data-aos-duration="1000"
+            data-aos="zoom-out"
+            data-aos-delay="800"
+            data-aos-duration="1000"
             className={pageStyles.henry}
           >
             x henry tran
@@ -91,9 +91,9 @@ export default function GeneralSection() {
           <div className={pageStyles.border}></div>
 
           <div
-            // data-aos="zoom-in"
-            // data-aos-delay="800"
-            // data-aos-duration="1000"
+            data-aos="zoom-in"
+            data-aos-delay="800"
+            data-aos-duration="1000"
             className={pageStyles.year}
           >
             2024
@@ -101,17 +101,17 @@ export default function GeneralSection() {
 
           <div className={pageStyles.developerContainer}>
             <div
-              // data-aos="fade-up"
-              // data-aos-delay="900"
-              // data-aos-duration="900"
+              data-aos="fade-up"
+              data-aos-delay="900"
+              data-aos-duration="900"
               className={pageStyles.frontEndText}
             >
               front end
             </div>
             <div
-              // data-aos="fade-down"
-              // data-aos-delay="900"
-              // data-aos-duration="900"
+              data-aos="fade-down"
+              data-aos-delay="900"
+              data-aos-duration="900"
               className={pageStyles.developerText}
             >
               developer
