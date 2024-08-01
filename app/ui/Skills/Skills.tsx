@@ -57,7 +57,9 @@ export default function Skills() {
                         alt={skill.name}
                       />
 
-                      <div className={styles.skillName}>{skill.name}</div>
+                      <div className={styles.skillSoftwareName}>
+                        {skill.name}
+                      </div>
                     </li>
                   ))}
                 </ul>
@@ -107,6 +109,7 @@ export default function Skills() {
         >
           <div className={styles.softSkillsDeveloperContainer}>
             <div className={styles.skillTitle}>Soft Skills</div>
+
             <div className={styles.listSkillContainer}>
               <ul className={styles.ul}>
                 {[
@@ -132,6 +135,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
+
         <div
           // data-aos="zoom-in"
           // data-aos-delay="500"
