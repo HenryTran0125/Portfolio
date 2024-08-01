@@ -1,6 +1,6 @@
 .section {
   min-height: 100vh;
-  margin-top: 96px;
+  margin-top: 9.6rem;
 }
 
 .container {
@@ -13,12 +13,12 @@
 .titleSectionText {
   text-align: center;
   line-height: 5;
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #081f5c;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  margin-bottom: 60px;
+  letter-spacing: 0.4rem;
+  margin-bottom: 6rem;
 }
 
 .certificateContainer {
@@ -40,11 +40,11 @@
 
 .certificateElementContainer {
   display: flex;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 
 .imageContainer {
-  margin-right: 36px;
+  margin-right: 3.6rem;
 }
 
 .textContainer {
@@ -53,24 +53,25 @@
 
 .courseName {
   color: #081f5c;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   line-height: 2;
 }
 
 .instructorsText {
   color: rgba(8, 31, 92, 0.58);
-  font-size: 14px;
-  line-height: 2;
-  letter-spacing: 2px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
   font-weight: 800;
+  margin: 1.2rem 0 2.4rem 0;
 }
 
 .courseDescription {
   color: #081f5c;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
-  letter-spacing: 2px;
-  line-height: 3;
+  letter-spacing: 2;
+  line-height: 2;
 }

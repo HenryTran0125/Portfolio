@@ -21,17 +21,8 @@ export default function AboutMe() {
       >
         <div className={styles.introduction}>
           <div className={styles.overview}>
-            <div style={{ position: "relative", right: "35%", top: "7%" }}>
-              <Image
-                style={{
-                  height: "400px",
-                  width: "650px",
-                  backgroundColor: "transparent",
-                  objectFit: "cover",
-                }}
-                alt="Henry"
-                src={Henry}
-              />
+            <div className={styles.imageContainer}>
+              <Image className={styles.img} alt="Henry" src={Henry} />
             </div>
 
             <div
@@ -92,6 +83,7 @@ export default function AboutMe() {
 
           <div className={styles.areaContainer}>
             <div className={styles.category}>Language</div>
+
             <div className={styles.details}>
               <div className={styles.alignment}>
                 <span className={styles.title}>English:</span>

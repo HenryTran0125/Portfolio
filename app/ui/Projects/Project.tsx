@@ -33,7 +33,7 @@ export default function Project({
         <div className={styles.contentContainer}>
           <div className={styles.contentAlignment}>
             <div className={styles.image}>
-              <Image src={image} alt="shopee" width={1000} height={500} />
+              <Image src={image} alt="shopee" className={styles.img} />
             </div>
 
             <div className={styles.description}>

@@ -1,6 +1,7 @@
 .section {
   height: 100vh;
   overflow: hidden;
+  margin-top: 96px;
 }
 
 .container {
@@ -185,8 +186,27 @@
   gap: 0.8rem;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1440px) {
+  .imageContainer {
+    position: relative;
+    right: 23rem;
+    top: 5rem;
+  }
+
+  .img {
+    height: 40rem;
+    width: 65rem;
+    object-fit: contain;
+  }
+
   .nameContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    right: 3rem;
+    bottom: 3rem;
+    color: #081f5c;
     font-size: 7.5rem;
   }
 
@@ -212,5 +232,56 @@
 
   .hobbiesElement {
     font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  .nameContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    right: 8rem;
+    bottom: 10rem;
+    color: #081f5c;
+    font-size: 9.5rem;
+  }
+
+  .majorText {
+    font-size: 3.8rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 1.8rem;
+  }
+
+  .information {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3;
+    letter-spacing: 0.1rem;
+  }
+
+  .category {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    font-size: 3.8rem;
+    font-weight: 600;
+  }
+
+  .details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex: 3;
+  }
+
+  .title {
+    font-size: 2.4rem;
+  }
+
+  .description {
+    font-size: 2.2rem;
   }
 }
