@@ -235,7 +235,7 @@
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1450px) and (max-width: 1920px) {
   .nameContainer {
     position: absolute;
     display: flex;
