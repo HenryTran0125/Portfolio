@@ -8,12 +8,16 @@ interface ProjectTypes {
   nameProject: string;
   description: string;
   image: any;
+  gitHub: string;
+  visitPage: string;
 }
 
 export default function Project({
   nameProject,
   description,
   image,
+  gitHub,
+  visitPage,
 }: ProjectTypes) {
   return (
     <section id="Project" className={styles.section}>
@@ -32,11 +36,11 @@ export default function Project({
               <h3 className={styles.h3}>{nameProject}</h3>
               <p className={styles.p}>{description}</p>
 
-              <Link href="#" className={styles.visit}>
+              <Link href={visitPage} className={styles.visit}>
                 Visit Site
               </Link>
 
-              <Link href="#" className={styles.visit}>
+              <Link href={gitHub} className={styles.visit}>
                 Github
               </Link>
             </div>
