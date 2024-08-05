@@ -319,9 +319,9 @@
   .textContainer {
     position: absolute;
     left: 3%;
-    top: 15%;
+    top: 7%;
     height: 5rem;
-    font-size: 9.5rem;
+    font-size: 9rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     font-weight: 600;
@@ -329,7 +329,7 @@
 
   .form {
     width: 50%;
-    height: 50rem;
+    height: 45rem;
     display: flex;
     flex-direction: column;
   }
@@ -424,6 +424,7 @@
     color: #081f5c;
     cursor: pointer;
     align-self: end;
+    color: #081f5c;
   }
 
   .address {
