@@ -96,3 +96,14 @@
     letter-spacing: 0.3rem;
   }
 }
+
+@media (min-width: 1921px) {
+  .img {
+    width: 100rem;
+    height: 50rem;
+  }
+
+  .p {
+    letter-spacing: 0.3rem;
+  }
+}

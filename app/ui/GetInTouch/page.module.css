@@ -1,0 +1,452 @@
+@media (min-width: 1921px) {
+  .section {
+    height: 100vh;
+    margin-top: 9.6rem;
+  }
+
+  .container {
+    height: 100%;
+    width: 100%;
+    padding: 4.8rem;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: end;
+  }
+
+  .textContainer {
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    height: 5rem;
+    font-size: 9.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+  }
+
+  .form {
+    width: 50%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alignment {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 4.8rem;
+  }
+
+  .alignment:last-of-type {
+    margin-bottom: 2.8rem;
+  }
+
+  .contactInForm {
+    display: flex;
+    width: 100%;
+    margin-bottom: 4.8rem;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 1rem;
+  }
+
+  .phone {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .labelAfter {
+    position: relative;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    animation: labelSlide 300ms linear;
+    font-weight: 650;
+    letter-spacing: 0.2rem;
+  }
+
+  .labelBefore {
+    position: relative;
+    top: 1.4rem;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 650;
+    letter-spacing: 0.2rem;
+  }
+
+  @keyframes labelSlide {
+    0% {
+      position: relative;
+      top: 1.4rem;
+      font-size: 2.2rem;
+    }
+
+    50% {
+      font-size: 1.8rem;
+    }
+
+    100% {
+      position: relative;
+      top: 3.6rem;
+      font-size: 2.2rem;
+      transform: translateY(-3.6rem);
+      font-size: 1.2rem;
+    }
+  }
+
+  .input {
+    z-index: 10;
+    border: none;
+    border-bottom: 0.2rem solid #081f5c;
+    height: 2.4rem;
+    background-color: transparent;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+
+  .button {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    align-self: end;
+  }
+
+  .address {
+    margin-top: 3.6rem;
+  }
+
+  .henrytran {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+  .phoneContact {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+  }
+
+  .mail {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+  }
+}
+
+@media (min-width: 1450px) and (max-width: 1920px) {
+  .section {
+    height: 100vh;
+    margin-top: 9.6rem;
+  }
+
+  .container {
+    height: 100%;
+    width: 100%;
+    padding: 4.8rem;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: end;
+  }
+
+  .textContainer {
+    position: absolute;
+    left: 3%;
+    top: 8%;
+    height: 5rem;
+    font-size: 10rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-weight: 650;
+  }
+
+  .form {
+    width: 50%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alignment {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 4.8rem;
+  }
+
+  .alignment:last-of-type {
+    margin-bottom: 2.8rem;
+  }
+
+  .contactInForm {
+    display: flex;
+    width: 100%;
+    margin-bottom: 4.8rem;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 1rem;
+  }
+
+  .phone {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .labelAfter {
+    position: relative;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    animation: labelSlide 300ms linear;
+    font-weight: 650;
+    letter-spacing: 0.2rem;
+  }
+
+  .labelBefore {
+    position: relative;
+    top: 1.4rem;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 650;
+    letter-spacing: 0.2rem;
+  }
+
+  @keyframes labelSlide {
+    0% {
+      position: relative;
+      top: 1.4rem;
+      font-size: 2.2rem;
+    }
+
+    50% {
+      font-size: 1.8rem;
+    }
+
+    100% {
+      position: relative;
+      top: 3.6rem;
+      font-size: 2.2rem;
+      transform: translateY(-3.6rem);
+      font-size: 1.2rem;
+    }
+  }
+
+  .input {
+    z-index: 10;
+    border: none;
+    border-bottom: 0.2rem solid #081f5c;
+    height: 2.4rem;
+    background-color: transparent;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+
+  .button {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    align-self: end;
+  }
+
+  .address {
+    margin-top: 3.6rem;
+  }
+
+  .henrytran {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+  .phoneContact {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+  }
+
+  .mail {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .section {
+    height: 100vh;
+    margin-top: 9.6rem;
+  }
+
+  .container {
+    height: 100%;
+    width: 100%;
+    padding: 4.8rem;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: end;
+  }
+
+  .textContainer {
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    height: 5rem;
+    font-size: 9.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+  }
+
+  .form {
+    width: 50%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alignment {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 4.8rem;
+  }
+
+  .alignment:last-of-type {
+    margin-bottom: 2.8rem;
+  }
+
+  .contactInForm {
+    display: flex;
+    width: 100%;
+    margin-bottom: 4.8rem;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 1rem;
+  }
+
+  .phone {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .labelAfter {
+    position: relative;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    animation: labelSlide 300ms linear;
+    font-weight: 650;
+    letter-spacing: 0.2rem;
+  }
+
+  .labelBefore {
+    position: relative;
+    top: 1.4rem;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 650;
+    letter-spacing: 0.2rem;
+  }
+
+  @keyframes labelSlide {
+    0% {
+      position: relative;
+      top: 1.4rem;
+      font-size: 2.2rem;
+    }
+
+    50% {
+      font-size: 1.8rem;
+    }
+
+    100% {
+      position: relative;
+      top: 3.6rem;
+      font-size: 2.2rem;
+      transform: translateY(-3.6rem);
+      font-size: 1.2rem;
+    }
+  }
+
+  .input {
+    z-index: 10;
+    border: none;
+    border-bottom: 0.2rem solid #081f5c;
+    height: 2.4rem;
+    background-color: transparent;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+
+  .button {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    align-self: end;
+  }
+
+  .address {
+    margin-top: 3.6rem;
+  }
+
+  .henrytran {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+  .phoneContact {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+  }
+
+  .mail {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+  }
+}

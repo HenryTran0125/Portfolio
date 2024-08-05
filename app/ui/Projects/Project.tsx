@@ -5,14 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface ProjectTypes {
-  key: number;
   nameProject: string;
   description: string;
   image: any;
 }
 
 export default function Project({
-  key,
   nameProject,
   description,
   image,

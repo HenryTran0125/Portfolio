@@ -9,6 +9,7 @@ import Skills from "./ui/Skills/Skills";
 import Certificate from "./ui/Certificate/Certificate";
 import Project from "./ui/Projects/Project";
 import { project } from "./project";
+import GetInTouch from "./ui/GetInTouch/GetInTouch";
 
 export default function Home() {
   useEffect(() => {
@@ -25,13 +26,15 @@ export default function Home() {
       <Skills />
       <Certificate />
       {project.map((project, index) => (
-        <Project
-          key={index}
-          nameProject={project.name}
-          description={project.description}
-          image={project.image}
-        />
+        <div key={index}>
+          <Project
+            nameProject={project.name}
+            description={project.description}
+            image={project.image}
+          />
+        </div>
       ))}
+      <GetInTouch />
     </main>
   );
 }
