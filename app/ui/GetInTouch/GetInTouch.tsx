@@ -58,8 +58,8 @@ export default function GetInTouch() {
     <section id="Get in touch" className={styles.section}>
       <div
         data-aos="fade-up"
-        data-aos-delay="500"
-        data-aos-duration="800"
+        data-aos-delay="400"
+        data-aos-duration="1000"
         className={styles.container}
       >
         <div className={styles.textContainer}>
@@ -132,7 +132,7 @@ export default function GetInTouch() {
             </div>
           </div>
 
-          {/* <div className={styles.alignment}>
+          <div className={styles.alignment}>
             <label
               className={clsx({
                 [styles.labelBefore]: !slide.subject,
@@ -150,9 +150,8 @@ export default function GetInTouch() {
               type="text"
               onClick={() => onSliding("subject")}
               onChange={(e) => setSubject(e.target.value)}
-              
             />
-          </div> */}
+          </div>
 
           <div className={styles.alignment}>
             <label

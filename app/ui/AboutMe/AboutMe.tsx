@@ -16,7 +16,7 @@ export default function AboutMe() {
       <div
         data-aos="fade-up"
         data-aos-delay="400"
-        data-aos-duration="1000"
+        data-aos-duration="800"
         className={styles.container}
       >
         <div className={styles.introduction}>
@@ -24,7 +24,7 @@ export default function AboutMe() {
             <div
               data-aos="fade-up"
               data-aos-delay="1000"
-              data-aos-duration="3000"
+              data-aos-duration="1000"
               className={styles.imageContainer}
             >
               <Image className={styles.img} alt="Henry" src={Henry} />

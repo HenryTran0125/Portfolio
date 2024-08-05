@@ -16,6 +16,7 @@ export default async function sendingMail(
         pass: process.env.EMAIL_PASSWORD,
       },
     });
+    console.log(process.env.EMAIL_USERNAME, process.env.EMAIL_PASSWORD);
 
     const mailOptions = {
       from: process.env.EMAIL_USERNAME, // Sender address
