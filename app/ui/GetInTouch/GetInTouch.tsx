@@ -57,9 +57,9 @@ export default function GetInTouch() {
   return (
     <section id="Get in touch" className={styles.section}>
       <div
-        data-aos="fade-up"
-        data-aos-delay="400"
-        data-aos-duration="1000"
+        // data-aos="fade-up"
+        // data-aos-delay="400"
+        // data-aos-duration="1000"
         className={styles.container}
       >
         <div className={styles.textContainer}>

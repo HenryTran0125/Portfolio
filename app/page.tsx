@@ -31,6 +31,8 @@ export default function Home() {
             nameProject={project.name}
             description={project.description}
             image={project.image}
+            gitHub={project.gitHub}
+            visitPage={project.visitPage}
           />
         </div>
       ))}
