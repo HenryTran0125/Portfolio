@@ -132,6 +132,7 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
   }
 
   .phoneContact {
@@ -139,17 +140,42 @@
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
   }
 
   .mail {
     font-size: 2.2rem;
-    text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .socialMedia {
+    margin-bottom: 1rem;
+  }
+
+  .socialMediaContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  .span {
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .img {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.6rem;
   }
 }
 
-@media (min-width: 1450px) and (max-width: 1920px) {
+@media (min-width: 1441px) and (max-width: 1920px) {
   .section {
     height: 100vh;
     margin-top: 9.6rem;
@@ -283,6 +309,7 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
   }
 
   .phoneContact {
@@ -290,13 +317,38 @@
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
   }
 
   .mail {
     font-size: 2.2rem;
-    text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .socialMedia {
+    margin-bottom: 1rem;
+  }
+
+  .socialMediaContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  .span {
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .img {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.6rem;
   }
 }
 
@@ -436,6 +488,7 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
   }
 
   .phoneContact {
@@ -443,12 +496,37 @@
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
   }
 
   .mail {
     font-size: 2.2rem;
-    text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .socialMedia {
+    margin-bottom: 1rem;
+  }
+
+  .socialMediaContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  .span {
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .img {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.6rem;
   }
 }
