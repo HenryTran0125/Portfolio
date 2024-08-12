@@ -25,6 +25,6 @@ export const project = [
       "This project is a hotel booking system designed to facilitate reservations from clients, where the primary user is an employer. Bookings are confirmed when clients arrive at the hotel. The system’s main functions include monitoring statistical activities and managing all aspects of bookings—whether unconfirmed, checked-in, or checked-out. It also allows for the management of cabin availability and the creation of new user accounts. Additionally, the system features a dark mode option for enhanced usability ",
     image: wildOasis,
     gitHub: "https://github.com/HenryTran0125/The-Wild-Oasis",
-    visitPage: "https://the-wild-oasis-gold.vercel.app/login",
+    visitPage: "https://the-wild-oasis-gold.vercel.app/",
   },
 ];
