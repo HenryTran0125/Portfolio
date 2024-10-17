@@ -1,15 +1,14 @@
-import shopee from "../public/pictures/shop2.png";
+import Airbnb from "../public/pictures/airbnb.png";
 import pizza from "../public/pictures/pizza.png";
 import wildOasis from "../public/pictures/wildOasis.png";
 
 export const project = [
   {
-    name: "Shopee Clone",
-    description:
-      "This project is a clone of the Shopee website, a leading e-commerce platform in Asia. The Shopee API for this project isprovided by TMAPI. Key functionalities include searching for keywords, adding items, and checking out items",
-    image: shopee,
-    gitHub: "https://github.com/HenryTran0125/Shopee",
-    visitPage: "https://shopeeclone-nine.vercel.app/",
+    name: "Airbnb Booking",
+    description: `I'm working on building a website similar to Airbnb, focusing on core user features like signing up, logging in, and booking accommodations. Users can create accounts, book rooms, and manage their reservations. They also have the ability to update their profiles, view booking history, and modify personal details, offering a seamless experience for managing bookings and personal information.`,
+    image: Airbnb,
+    gitHub: "https://github.com/HenryTran0125/Airbnb",
+    visitPage: "https://cloningairbnbproject-24iq.vercel.app/",
   },
   {
     name: "Ordering Pizza",
