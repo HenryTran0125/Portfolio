@@ -48,14 +48,32 @@ export default function GetInTouch() {
               </div>
 
               <div className={styles.socialMediaContainer}>
-                {["Facebook", "Instagram", "Linkedin"].map((item, index) => (
-                  <Link href="#" className={styles.span} key={index}>
+                {[
+                  {
+                    socialMediaName: "Facebook",
+                    socialLink: "https://www.facebook.com/kienquan112/",
+                  },
+                  {
+                    socialMediaName: "Instagram",
+                    socialLink: "https://www.instagram.com/kienquan112/",
+                  },
+                  {
+                    socialMediaName: "Linkedin",
+                    socialLink:
+                      "https://www.linkedin.com/in/henry-tran-45830b297/?trk=opento_sprofile_details",
+                  },
+                ].map((item, index) => (
+                  <Link
+                    href={item.socialLink}
+                    className={styles.span}
+                    key={index}
+                  >
                     <Image
                       className={styles.img}
                       src={socialMedia[index]}
-                      alt={item}
+                      alt={item.socialMediaName}
                     />
-                    {item}
+                    {item.socialMediaName}
                   </Link>
                 ))}{" "}
               </div>
